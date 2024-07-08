@@ -9,7 +9,7 @@ import Birthday from "../assets/projects/Bw.png";
 import BBMS from "../assets/projects/Bloodbank.png";
 import iot from "../assets/projects/IOT.jpg";
 import Portfolio from "../assets/projects/D.png";
-
+import Foodport from "../assets/projects/Food-port.png";
 const Projects = () => {
   return (
     <Container fluid className="project-section">
@@ -87,6 +87,17 @@ const Projects = () => {
               Successfully deployed the portfolio to a live website. "
               ghLink="https://github.com/19sajib/Solidity-Kickstart"
               demoLink="https://mysite1231.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Foodport}
+              isBlog={false}
+              title="Food-Port"
+              description="Domain: Programming Languages: Reactjs, Nodejs,Expressjs,Javascript.
+             Food Port is large scalable food ordering appilication which uses Swiggy's API to fetch the Restaurants."
+              ghLink="https://github.com/Prakhar574/food-port"
+
             />
           </Col>
         </Row>
