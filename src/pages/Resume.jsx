@@ -5,7 +5,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 import Particle from '../components/Particle';
 
-const resumeLink = `https://drive.google.com/file/d/1dSHqG-EBxm-fys8TasPpASuzSjLAb3dj/view?usp=sharing`;
+const resumeLink = `https://drive.google.com/file/d/1DOsMU0xeSXb0O71zZzc6ngaUfaNKPF9U/view?usp=sharing`;
 
 const Resume = () => {
   return (
