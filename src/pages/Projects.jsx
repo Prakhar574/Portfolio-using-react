@@ -12,6 +12,9 @@ import Portfolio from "../assets/projects/D.png";
 import Foodport from "../assets/projects/Food-port.png";
 import doctor from "../assets/projects/Doctor.png";
 import study from "../assets/projects/Studytech.png";
+import Recipe from "../assets/projects/Recipe.png";
+import Email from "../assets/projects/Email.png";
+import Dash from "../assets/projects/Dashboard.png"
 const Projects = () => {
   return (
     <Container fluid className="project-section">
@@ -26,6 +29,29 @@ const Projects = () => {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={Recipe}
+              isBlog={false}
+              title="Recipe Dekho"
+              description="Domain: Web Applcation | Programming  Languages: Reactjs, Nodejs,Expressjs.
+              RecipeDekho is a MERN Stack application that allows users to explore recipes, add their own, and manage their favorite dishes.
+              It integrates authentication using bcrypt & JSON Web Token (JWT) and supports file uploads via Multer."
+              ghLink="https://github.com/Prakhar574/RecipeApp"
+              demoLink="https://drive.google.com/file/d/1jD7S9Hz26XkxmJ7MA_BKiHskWSV02Tbi/view"
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Email}
+              isBlog={false}
+              title="AI-Powered Email Generator"
+              description="Domain: Web Applcation | Programming  Languages: Reactjs, Nodejs,Expressjs.
+             AI-powered email generator built using the MERN Stack that allows users to generate, send, and save email drafts with attachments. The app integrates the Google Gemini API for smart email content suggestions and supports email sending via Nodemailer/Gmail API."
+              ghLink="https://github.com/Prakhar574/Email-Generator"
+              demoLink="https://drive.google.com/file/d/1dPgYtS4OpyMNQQA1MBBlvyosaF3Egusq/view"
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={doctor}
               isBlog={false}
               title="Doctor X"
@@ -33,7 +59,17 @@ const Projects = () => {
               Developed a scalable web application for medical professionals to manage patient information and appointments efficiently. 
               Utilized React with Vite for a responsive front-end interface and Node.js with Express for the back-end API. Implemented MongoDB for data storage. Created dynamic and user-friendly UI components with advanced CSS styling and animations"
               ghLink="https://github.com/Prakhar574/Doctor-X"
-              demoLink="https://doctor-xo.vercel.app/"
+              demoLink="https://drive.google.com/file/d/1jD7S9Hz26XkxmJ7MA_BKiHskWSV02Tbi/view"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Dash}
+              isBlog={false}
+              title="Interactive Dashboard Web Application"
+              description="Domain: Web Applcation | Programming  Languages: Reactjs, Nodejs,Expressjs.
+              Welcome to the Interactive Dashboard Web Application! This project is a dynamic, data visualization tool that allows users to track their data, monitor progress, and visualize trends in real time."
+              ghLink="https://github.com/Prakhar574/Dashboard-APP"
             />
           </Col>
           <Col md={4} className="project-card">
