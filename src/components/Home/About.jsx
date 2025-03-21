@@ -6,7 +6,7 @@ import {
   AiFillGithub
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-
+import Project from "../../pages/Projects";
 
 
 
@@ -101,6 +101,11 @@ const About = () => {
                 </ul>
               </Col>
             </Row>
+            <Row>
+                    <Col md={12}>
+                        <Project />
+                    </Col>
+                </Row>
           </Container>
         </Container>
       );
